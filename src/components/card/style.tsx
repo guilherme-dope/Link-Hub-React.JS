@@ -9,9 +9,11 @@ export const Container = styled.div`
   padding: 20px;
   width: 100%;
   
+  
+  
   &:hover {
     background: linear-gradient(360deg, rgba(36,36,36,1) 0%, rgba(37,37,86,1) 100%);
-    
+    cursor: pointer;
   }
   
   & section {

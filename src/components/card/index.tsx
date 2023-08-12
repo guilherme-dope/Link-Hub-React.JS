@@ -1,11 +1,18 @@
 import { Container } from "./style.tsx";
 
-const Card = () => {
+interface CardProps {
+    img: string;
+    text: string;
+    onClick: () => void;
+
+}
+
+const Card = ({img, text, onClick}: CardProps) => {
     return (
-        <Container>
+        <Container onClick={onClick} >
             <section>
-            <img src="https://i.imgur.com/0ERe3BG.png" alt=""/>
-            <h1>Mainadadsdd</h1>
+            <img src={img} alt=""/>
+            <h1>{text}</h1>
             </section>
         </Container>
     );
