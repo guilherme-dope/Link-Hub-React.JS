@@ -32,12 +32,22 @@ const Home = () => {
         />
 
         <Card
+            img={"https://i.imgur.com/25UyX4D.png"}
+            text={"Clone Spotify"}
+            onClick={() =>
+                window.open("https://github.com/guilherme-dope/Clone-Spotify-ReactJS")
+            }
+        />
+
+        <Card
           img={"https://i.imgur.com/85Q1Ml7.png"}
           text={"This Project Repository"}
           onClick={() =>
             window.open("https://github.com/guilherme-dope/Link-Hub-React.JS")
           }
         />
+
+
 
         <h1></h1>
       </main>
