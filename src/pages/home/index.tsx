@@ -6,7 +6,9 @@ const Home = () => {
         <Container>
             <main>
 
+                <img src="https://i.imgur.com/0ERe3BG.png" alt="Profile Photo"/>
 
+                <h1 className="title">Guilherme</h1>
 
                 <Card />
                 <Card />
