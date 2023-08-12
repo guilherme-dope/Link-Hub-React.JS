@@ -27,7 +27,15 @@ export const Container = styled.div`
     }
     
     & > img {
+      height: 155px;
+      width: 155px;
       border-radius: 100%;
+      transition: box-shadow 500ms ease-in-out ;
+      
+      &:hover {
+        box-shadow: 0 0 24px 1px rgba(37,37,86,1);
+        
+      }
     }
     
   }
