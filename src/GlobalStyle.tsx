@@ -30,6 +30,7 @@ export const GlobalStyle = createGlobalStyle`
 
     --black: #000000;
     --white: #ffffff;
+    
   }
   
 `
