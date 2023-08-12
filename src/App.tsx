@@ -1,10 +1,11 @@
+import Home from "./pages/home";
 
 function App() {
 
 
   return (
     <>
-        <h1>Clone Spotify</h1>
+        <Home />
     </>
   )
 }

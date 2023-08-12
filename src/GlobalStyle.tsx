@@ -10,6 +10,11 @@ export const GlobalStyle = createGlobalStyle`
     font-family: 'Kanit', sans-serif;
   }
   
+  body {
+    
+    background: var(--gray-900);
+    color: var(--white)
+  }
   
   :root {
 
